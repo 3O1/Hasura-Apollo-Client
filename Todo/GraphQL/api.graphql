@@ -1,0 +1,8 @@
+query getMyTodos {
+  todos(limit: 40) {
+	id
+	title
+	created_at
+	is_completed
+  }
+}
